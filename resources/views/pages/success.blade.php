@@ -9,6 +9,7 @@
 	{{ action('PagesController@show', ['id' => $link->id]) }}
 
 	</a>
+
 </p>
 
 @stop

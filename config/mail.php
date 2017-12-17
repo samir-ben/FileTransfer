@@ -16,7 +16,17 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+     "driver" => "smtp",
+  "host" => "smtp.mailtrap.io",
+  "port" => 2525,
+  "from" => array(
+      "address" => "from@example.com",
+      "name" => "Example"
+  ),
+  "username" => "3f742b547be156",
+  "password" => "880afeee97e125",
+  "sendmail" => "/usr/sbin/sendmail -bs",
+  "pretend" => false,
 
     /*
     |--------------------------------------------------------------------------

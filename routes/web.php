@@ -18,6 +18,8 @@
 Route::get('/', 'PagesController@index');
 Route::post('/', 'PagesController@store');
 
+// Route::get('/', 'PagesController@contact');
+
 
 
 Route::post('success','PagesController@success');
