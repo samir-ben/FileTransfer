@@ -10,19 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('index');
-// });
-
 Route::get('/', 'PagesController@index');
 Route::post('/', 'PagesController@store');
 
-// Route::get('/', 'PagesController@contact');
-
-
-
 Route::post('success','PagesController@success');
+Route::get('link', 'PagesController@link');
 
 Route::get('about', 'PagesController@about');
 
@@ -32,8 +24,3 @@ Route::get('file', 'PagesController@file');
 Route::post('file', 'PagesController@fileDownload');
 
 
-
-// Route::post('/', 'PagesController@store', function () {
-//  request()->file('url')->store('uploads');
-//  return back();
-// });

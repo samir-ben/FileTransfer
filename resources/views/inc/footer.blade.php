@@ -1,4 +1,3 @@
-<footer class="container text-center">
-	<hr>
-	<h6>We Transfer - Tout droits réservés</h6>
+<footer class="container text-center fixed-bottom">
+	<h5><a href="http://www.samirbendaoud.com" target="_blank">Samir BENDAOUD</a> - Tous droits réservés - 2017</h5>
 </footer>
