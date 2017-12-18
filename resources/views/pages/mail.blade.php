@@ -5,10 +5,10 @@
   <p class="lead">Vous avez reçu un lien pour téléchager un fichier de la part de : {{$from}}</p>
   <hr class="my-4">
   <p>Message:<br>
-{{$text}}
+{{$text}}</p>
 
 Lien:<br>
-<i style="color: blue;">{{$url}}</i></p>
+<i style="color: blue;">{{$url}}</i>
   <p class="lead">
     <p>Copiez le lien ci-dessus et rendez-vous dans l'onglet <a href="{{URL::to('/')}}/file" target="_blank"><strong> Téléchargement</strong></a> pour récupérer votre fichier.</p>
   </p>
