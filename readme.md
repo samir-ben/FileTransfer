@@ -1,8 +1,8 @@
 ## File.Transfer
-Création d'une application de partage de fichier. 
+Création d'une application de partage de fichiers. 
 
 Utilisation :
-1) L'utilisateur choisi un fichier à envoyer;
+1) L'utilisateur choisit un fichier à envoyer;
 2) Puis il renseigne l'e-mail du destinataire avec un message;
 3) Le destinataire reçoit par e-mail un lien à copier;
 4) Dans l'onglet "Téléchargement", le destinataire copie le lien reçu dans le formulaire pour procéder au téléchargement du fichier.
